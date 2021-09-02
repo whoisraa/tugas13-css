@@ -1,0 +1,32 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.satu {
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    background-color: #39b54a;
+    box-shadow: 30px 30px black;
+    border: solid;
+    border-image-source: url("hearts.png");
+    border-image-repeat: round;
+    border-image-width: 20px;
+    border-image-slice: 20 22;
+    border-image-outset: 20px;
+}
+
+.dua {
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    background-color: blue;
+    box-shadow: 6px 6px 15px black;
+    border: solid;
+    border-image-source: url("border1.png");
+    border-image-repeat: round;
+    border-image-width: 35px;
+    border-image-slice: 34%;
+    border-image-outset: 22px;
+}
